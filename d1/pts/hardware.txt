@@ -1,0 +1,40 @@
+Why do we need a computer?
+Speed, Accuracy, capacity to take large amount of work.
+
+What is computer hardware?
+Computer hardware includes all the electrical, mechanical and the electronic parts of computer. Any part that we can see or touch is the hardware.
+The computer is a two part system consisting of a body that is the hardware and a mind that is the software. -- This is good
+
+computer hardware includes
+System Unit
+Peripheral device
+input device like keyboard, mouse etc.
+Output devece like monitor, printer etc.
+Storage device like hard disk, floppy disk etc.
+
+
+What is Software then?
+Different type of software:-
+Application Software, System Sofware.
+Application Software:
+1. MS Word
+2. MS Excel
+3. MySQL
+System Sofware: Which bridges the gap between human and the computer (hardware)
+1. Windows Family of Operating Systems (XP, 7, 8, 10 etc.), Linux, OS/2
+
+Interacts with:
+-HDD
+-CPU
+-Memory (RAM)
+-Display (Screen)
+-Mouse
+-Keyboard
+Definition of Application Software, System Sofware and also Operating System, compilers and interpreter.
+
+System Unit is a box like structre of the computer. Inside this box you can find the power supply, storage device, hard disk and floppy drivers, and the mother board containing CPU and memory.
+
+Digital computers work on binary mathematics. Which when done with electrical machines, electronic machines relates to voltages. Where presence of a voltage (+ 5v) means 1 absence of it (+1 v) implies 0.
+The computer can work with two states ON and OFF. ON state is represented by 1 and OFF state is represented by 0. This system of using 1 and 0 is called as the Binary system.
+
+The computer uses three types memory the RAM ROM and Cache.

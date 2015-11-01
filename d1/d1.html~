@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(rahul)"/>
+<link rel="stylesheet" href="file:/home/rahul/rd/sw/reveal.js/css/reveal.css"/>
+<link rel="stylesheet" href="file:/home/rahul/rd/sw/reveal.js/css/theme/night.css" id="theme"/>
+<link rel="stylesheet" href="./presentation.css"/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:/home/rahul/rd/sw/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1></h1>
+<h2>rahul</h2>
+<h2><a href="mailto:rahul@chichen-itza">rahul@chichen-itza</a></h2>
+<h2></h2>
+</section>
+<section id="table-of-contents">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-orgheadline2">A Brief History</a></li>
+<li><a href="#/slide-orgheadline4">Why do we need a computer?</a></li>
+<li><a href="#/slide-orgheadline6">Computer Hardware</a></li>
+<li><a href="#/slide-orgheadline7">Slied with code</a></li>
+<li><a href="#/slide-orgheadline8">Slied with code</a></li>
+<li><a href="#/slide-orgheadline12">Slide with Colour - overriding the theme</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<section>
+<section id="slide-orgheadline2">
+<h2 id="orgheadline2">A Brief History</h2>
+<div class="outline-text-2" id="text-orgheadline2">
+</div></section>
+<section id="slide-orgheadline1">
+<h3 id="orgheadline1">In Time&#x2026;</h3>
+<ul class="fragment roll-in">
+<li>2000 B. C.
+<ul>
+<li><a href="./images/abacus.png">The Abacus (Chinese)</a></li>
+
+</ul></li>
+<li>1642 A. D.
+<ul>
+<li><a href="./images/PascalineFront.jpg.png">Pascaline (Biaise Pascal)</a></li>
+
+</ul></li>
+<li>1820 A. D.
+<ul>
+<li><a href="./images/AnalyticalEngine.jpg">Analytical Engine (Charles Babbage)</a></li>
+
+</ul></li>
+<li>1890 A. D.
+<ul>
+<li><a href="./images/ElectroMechanical.gif">Electro Mechanical Machines (Herman Hollerith)</a></li>
+
+</ul></li>
+<li>1930 A. D.
+<ul>
+<li><a href="./images/danalyzer.gif">Electronic "Computer" (Vannevar Bush)</a></li>
+
+</ul></li>
+<li>1943 A. D.
+<ul>
+<li><a href="./images/turingmachine.jpg">The Turing Machine (Alan Turing)</a></li>
+
+</ul></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline4" data-background="./images/leiningen-slide-background.png" data-background-transition="slide">
+<h2 id="orgheadline4">Why do we need a computer?</h2>
+</section>
+<section id="slide-orgheadline3">
+<h3 id="orgheadline3">Benefits</h3>
+<ul class="fragment roll-in">
+<li>Speed</li>
+<li>Accuracy</li>
+<li>Endurance</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline6" data-background="./images/leiningen-slide-background.png" data-background-transition="slide">
+<h2 id="orgheadline6">Computer Hardware</h2>
+</section>
+<section id="slide-orgheadline5">
+<h3 id="orgheadline5">Major Components</h3>
+<ul class="fragment roll-in">
+<li>System Unit</li>
+<li>Peripheral device</li>
+<li>input device like keyboard, mouse etc.</li>
+<li>Output devece like monitor, printer etc.</li>
+<li>Storage device like hard disk, floppy disk etc.</li>
+<li>- Accuracy</li>
+<li>Endurance</li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline7">
+<h2 id="orgheadline7">Slied with code</h2>
+<div class="org-src-container">
+
+<pre  class="src src-zsh">git init
+</pre>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline8">
+<h2 id="orgheadline8">Slied with code</h2>
+<div class="org-src-container">
+
+<pre  class="src src-zsh">git init
+</pre>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline12" data-background="#770000" data-background-transition="slide">
+<h2 id="orgheadline12">Slide with Colour - overriding the theme</h2>
+<p>
+I love red.
+</p>
+
+<p class="fragment hightlight-red">
+Hightliht text as a fragment of the slide
+</p>
+
+
+
+</section>
+<section id="slide-orgheadline9">
+<h3 id="orgheadline9">Fragments in Reveal.js</h3>
+<p>
+Press the "Down" key on the page or the down arrow to trigger fragments
+</p>
+
+<ul class="fragment highlight-blue">
+<li>Create</li>
+<li>Fragment</li>
+<li>At Ease</li>
+
+</ul>
+
+</section>
+<section id="slide-orgheadline10">
+<h3 id="orgheadline10">Fragment captions</h3>
+<div class="org-src-container">
+<label class="org-src-name">The Org text source.</label>
+<pre  class="src src-org">#+ATTR_REVEAL: :frag
+   * Create
+   * Fragment
+   * At Ease
+</pre>
+</div>
+
+</section>
+<section id="slide-orgheadline11" data-state="alert">
+<h3 id="orgheadline11">Reveal.js Can Alert</h3>
+<p>
+Change slide style to wake up the sleepy audience.
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="file:/home/rahul/rd/sw/reveal.js/lib/js/head.min.js"></script>
+<script src="file:/home/rahul/rd/sw/reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: true,
+slideNumber: true,
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+margin: 0.20,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+});
+</script>
+</body>
+</html>
