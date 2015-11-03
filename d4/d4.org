@@ -1,0 +1,74 @@
+#    -*- mode: org -*-
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/2.5.0/
+#+OPTIONS: reveal_mathjax:t
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+OPTIONS: heading:nil
+#+REVEAL_MARGIN: 0.2
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: convex
+#+REVEAL_THEME: night
+#+REVEAL_HLEVEL: 1
+#+REVEAL_SLIDE_NUMBER: nil
+* RDBMS
+* Spreadsheets
+** Things that are good
+  #+ATTR_REVEAL: :frag (roll-in roll-in roll-in roll-in roll-in roll-in roll-in)
+  1. Fast, Flexible
+  2. Easy, Pretty Easy...
+  3. Distribution is relatively easy
+  4. Little infrastructure
+  5. Personal Manager - Expenses, Books...
+  6. Visualization (Charts and what not)
+  7. Reporting
+** Things that are difficult...
+   #+ATTR_REVEAL: :frag (roll-in roll-in roll-in roll-in roll-in)
+   1. Large Volume
+   2. Multiple Access
+   3. Real Time (No pun, intended)
+   4. Enforce Rules (AKA Constraints)
+   5. Integrity (AKA Organized, No Duplicate)
+** Things that are impossible...
+   #+ATTR_REVEAL: :frag (roll-in)
+   1. Facebook
+* RDBMS to rescue
+:PROPERTIES:
+:reveal_background: #009e9e
+:END:
+** The concepts
+   #+ATTR_REVEAL: :frag (roll-in roll-in roll-in roll-in roll-in)
+   1. The TABLE - A Structural Definition (Relation)
+   2. Columns - The Horizontal Axis of a Matrix
+   3. Attribute - Christened Columns
+   4. Rows/Tuples - The Vertical Axis of a Matrix
+   #+ATTR_REVEAL: :frag (roll-in)
+   [[./images/rdbmsconcept.png]]
+** The Benefits
+   #+ATTR_REVEAL: :frag (roll-in roll-in roll-in roll-in roll-in)
+   1. It's Organized - Logically
+   2. Avoids Redundancy - No Duplication
+   3. Enforces Integrity - Rules
+   4. Transform - Gives Snapshots of Use
+   5. Storage & Optimization
+* An example
+  #+ATTR_REVEAL: :frag (roll-in)
+  Bibliography
+* Summing it up
+:PROPERTIES:
+    :reveal_background: #224488
+    :reveal_background_trans: slide
+    :END:
+#+ATTR_REVEAL: :frag roll-in
+1. [ ] Review
+   1. [ ] Databases
+      1. [ ] Types of databases
+   2. [ ] Models
+      1. [ ] What are the newer trends of data models
+   3. [ ] Design
+      1. [ ] What will be the structural design of your music database
+* See you on 3rd...
+   rahul.naskar@gmail.com

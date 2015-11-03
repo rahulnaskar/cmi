@@ -1,0 +1,179 @@
+#    -*- mode: org -*-
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/2.5.0/
+#+OPTIONS: reveal_mathjax:t
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+OPTIONS: heading:nil
+#+REVEAL_MARGIN: 0.2
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: convex
+#+REVEAL_THEME: night
+#+REVEAL_HLEVEL: 1
+#+REVEAL_SLIDE_NUMBER: nil
+
+* Computer Network
+:PROPERTIES:
+:reveal_background: #004f4f
+:END:
+* A Brief History
+  #+ATTR_REVEAL: :frag roll-in
+1. [ ] Review
+   1. [ ] History
+      1. [ ] From the Von Neumann Architecture till Now
+   2. [ ] Why is the computer unique
+      1. [ ] 3 things that would have been impossible without computers
+   3. [ ] Computer Hardware
+      1. [ ] How does the CPU work
+      2. [ ] Why is Memory Required in Computers
+      3. [ ] What is a bus in computer?
+   4. [ ] Binary Maths
+      1. [ ] How to tackle fractions in Binary Maths
+   #+ATTR_REVEAL: :frag roll-in
+   rahul.naskar@gmail.com
+* Nothing is new under the Sun
+:PROPERTIES:
+:reveal_background: #009e9e
+:END:
+
+** [[./images/postoffice.gif]]
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/basicnetwork.jpeg]]
+   #+ATTR_REVEAL: :frag roll-in
+
+* Computer Network
+ :PROPERTIES:
+ :reveal_background_trans: slide
+ :END:
+
+** The Problem
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/theproblem.png]]
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/basicnetwork.png]]
+   #+ATTR_REVEAL: :frag roll-in
+   That's Basic
+   #+ATTR_REVEAL: :frag roll-in
+   But Important
+* Idioms & Phrases
+ :PROPERTIES:
+ :reveal_background_trans: slide
+ :END:
+** LAN
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/lan.png]]
+
+** MAN
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/man.png]]
+
+** Internetwork
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/internetwork.png]]
+
+** Internet
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/basicinternet.png]]
+* The Process
+** OSI - In Jargon
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/osi1.jpg]]
+** OSI - Mapped
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/osi1.jpg]]
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/osi2.png]]
+** OSI v/s TCP/IP
+   #+BEGIN_CENTER
+   #+ATTR_REVEAL: :frag roll-in
+   |-------------------+-------------------|
+   | [[./images/osi3.gif]] | [[./images/osi4.png]] |
+   | OSI - TCP/IP      | Mapped            |
+
+
+   #+END_CENTER
+* Let's get dirty
+** Physical & Data Link
+   #+ATTR_REVEAL: :frag roll-in
+   Physical
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/rj45.gif]]
+   #+ATTR_REVEAL: :frag roll-in
+   Data Link
+   #+ATTR_REVEAL: :frag roll-in
+   #+BEGIN_QUOTE
+   Let's Ping
+   #+END_QUOTE
+** Network
+   #+ATTR_REVEAL: :frag roll-in
+   #+BEGIN_QUOTE
+   192.168.1.25
+   #+END_QUOTE
+   #+ATTR_REVEAL: :frag roll-in
+   * That's IP address
+   #+ATTR_REVEAL: :frag roll-in
+   #+BEGIN_QUOTE
+   192.168.1
+   #+END_QUOTE
+   #+ATTR_REVEAL: :frag roll-in
+   * That's Network Address
+   #+ATTR_REVEAL: :frag roll-in
+   #+BEGIN_QUOTE
+   25
+   #+END_QUOTE
+   #+ATTR_REVEAL: :frag roll-in
+   * That's Host Address
+** Network Configuration
+   [[./images/tcpipwindows.jpg]]
+* microsoft.com, google.com...
+  What are they?
+  #+ATTR_REVEAL: :frag roll-in
+  That's Domain
+** The Tree
+  #+ATTR_REVEAL: :frag roll-in
+  [[./images/tld.gif]]
+** Correlating
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/domainip.jpg]]
+** An Example
+  #+ATTR_REVEAL: :frag roll-in
+  [[./images/domain.jpeg]]
+
+* If you are an explorer
+  | Topic               | Link                                               |
+  |---------------------+----------------------------------------------------|
+  | IP Addressing       | https://support.microsoft.com/en-us/kb/164015      |
+  | www                 | https://en.wikipedia.org/wiki/World_Wide_Web       |
+  | In depth TCP/IP     | http://www.w3.org/People/Frystyk/thesis/TcpIp.html |
+  | Tannenbaum (AST)    | Computer Networks                                  |
+  | Behrouz A. Forouzan | Data Communication & Networking                    |
+
+* Summing it up
+:PROPERTIES:
+    :reveal_background: #224488
+    :reveal_background_trans: slide
+    :END:
+#+ATTR_REVEAL: :frag roll-in
+1. [ ] Review
+   1. [ ] What's a network?
+      1. [ ] What are the difference between Postal System and Computer Networks
+   2. [ ] What is computer network
+      1. [ ] At least 2 other types of computer networks
+   3. [ ] Idioms & Phrases
+      1. [ ] Glossary of at least 10 other terms with explanation
+   4. [ ] Domain
+      1. [ ] What if I get a new Server and IP and transfer my existing website
+
+
+|        | What is a network                                        | Postal Vs Computer  | 2 others types |
+| Rishav | Network is a group of 2 or more computer linked together | Physical/Electronic | WAN & WLAN     |
+|        |                                                          |                     |                |
+
+LoL
+IMHO
+
+* See you on 13th...
+   rahul.naskar@gmail.com

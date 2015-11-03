@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+<meta name="author" content="(rahul)"/>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.5.0/css/reveal.css"/>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/2.5.0/css/theme/night.css" id="theme"/>
+<link rel="stylesheet" href=""/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/2.5.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1></h1>
+<h2>rahul</h2>
+<h2><a href="mailto:rahul.naskar@gmail.com">rahul.naskar@gmail.com</a></h2>
+<h2></h2>
+</section>
+<section>
+<section id="slide-orgheadline1">
+<h2 id="orgheadline1">SQL Fundamentals</h2>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline3">
+<h2 id="orgheadline3">Systems &amp; Tools</h2>
+<div class="outline-text-2" id="text-orgheadline3">
+</div></section>
+<section id="slide-orgheadline2">
+<h3 id="orgheadline2">Databsase</h3>
+<ol>
+<li class="fragment roll-in">DB System - SQLite</li>
+<li class="fragment roll-in">GUI Front End - sqlitebrowser</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline6">
+<h2 id="orgheadline6">The DB - Music</h2>
+<div class="outline-text-2" id="text-orgheadline6">
+</div></section>
+<section id="slide-orgheadline4">
+<h3 id="orgheadline4">Create DB</h3>
+<ol>
+<li class="fragment roll-in">Name</li>
+<li class="fragment roll-in">Location</li>
+
+</ol>
+</section>
+<section id="slide-orgheadline5">
+<h3 id="orgheadline5">Create Tables</h3>
+<ol>
+<li class="fragment roll-in">Songs</li>
+<li class="fragment roll-in">Artists</li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline12">
+<h2 id="orgheadline12">CRUD - List of Operations</h2>
+<div class="outline-text-2" id="text-orgheadline12">
+</div></section>
+<section id="slide-orgheadline7">
+<h3 id="orgheadline7">Create</h3>
+<ol>
+<li class="fragment roll-in">Create artists
+<ol>
+<li>insert into artists (artist) values('Jagjit')</li>
+<li>insert into artists (artist) values('Himesh Reshamiya')</li>
+
+</ol></li>
+<li class="fragment roll-in">Create songs
+<ol>
+<li>insert into songs (song)  values('Jhuki Jhuki Si Nazar')</li>
+
+</ol></li>
+<li class="fragment roll-in">Relate song with artist(s)
+<ol>
+<li>insert into song<sub>artists</sub>(artist<sub>id</sub>, song<sub>id</sub>) values(6, 3)</li>
+
+</ol></li>
+
+</ol>
+</section>
+<section id="slide-orgheadline8">
+<h3 id="orgheadline8">Read Flat/Simple Data</h3>
+<ol>
+<li class="fragment roll-in">Songs
+<ol>
+<li>select * from songs</li>
+
+</ol></li>
+<li class="fragment roll-in">Artists
+<ol>
+<li>select * from artists</li>
+
+</ol></li>
+
+</ol>
+</section>
+<section id="slide-orgheadline9">
+<h3 id="orgheadline9">Interesting Reads</h3>
+<ol>
+<li class="fragment roll-in">How many songs?
+<ol>
+<li>select count(*) from songs</li>
+
+</ol></li>
+<li class="fragment roll-in">How many artists?
+<ol>
+<li>???</li>
+
+</ol></li>
+<li class="fragment roll-in">Filters - Exact
+<ol>
+<li>select * from artists where artist='Kishore Kumar'</li>
+
+</ol></li>
+<li class="fragment roll-in">Filters - Wildcard
+<ol>
+<li>select * from artists where artist like 'Lata%'</li>
+
+</ol></li>
+<li class="fragment roll-in">Filters - Contains
+<ol>
+<li>select * from artists where artist like '%Kumar%'</li>
+
+</ol></li>
+
+</ol>
+</section>
+<section id="slide-orgheadline10">
+<h3 id="orgheadline10">Updates</h3>
+<ol>
+<li class="fragment roll-in">Update artist name
+<ol>
+<li>update artists set artist='Jagjit Singh' where artist='Jagjit'</li>
+
+</ol></li>
+
+</ol>
+</section>
+<section id="slide-orgheadline11">
+<h3 id="orgheadline11">Delete</h3>
+<ol>
+<li class="fragment roll-in">Delete an artist
+<ol>
+<li>Delete from artists where artist = 'Himesh Reshamiya'</li>
+
+</ol></li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline13">
+<h2 id="orgheadline13">Complex Queries - Joins &amp; Grouping</h2>
+<ol>
+<li class="fragment roll-in">Basic Join
+<ol>
+<li>select artist, song from artists a, songs b, song<sub>artists</sub> c where a.artist<sub>id</sub>=c.artist<sub>id</sub> and b.song<sub>id</sub>=c.song<sub>id</sub></li>
+
+</ol></li>
+<li class="fragment roll-in">Joins with Grouping
+<ol>
+<li>select artist, count(*) as "No. of Songs" from song<sub>artists</sub>, artists where song<sub>artists.artist</sub><sub>id</sub> = artists.artist<sub>id</sub> group by artists.artist<sub>id</sub></li>
+
+</ol></li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline14" data-background="#224488" data-background-transition="slide">
+<h2 id="orgheadline14">Summing it up</h2>
+<ol class="fragment roll-in">
+<li class="off"><code>[&#xa0;]</code> Review
+<ol>
+<li class="off"><code>[&#xa0;]</code> Systems &amp; Tools
+<ol>
+<li class="off"><code>[&#xa0;]</code> Anything else that can be imagined?</li>
+
+</ol></li>
+<li class="off"><code>[&#xa0;]</code> Basic Operations
+<ol>
+<li class="off"><code>[&#xa0;]</code> Implication of each Operation</li>
+
+</ol></li>
+<li>Querying Database
+<ol>
+<li class="off"><code>[&#xa0;]</code> Simple Queries</li>
+<li class="off"><code>[&#xa0;]</code> Joins</li>
+<li class="off"><code>[&#xa0;]</code> Complex Queries</li>
+
+</ol></li>
+<li class="off"><code>[&#xa0;]</code> Joins and it uses
+<ol>
+<li class="off"><code>[&#xa0;]</code> Count</li>
+<li class="off"><code>[&#xa0;]</code> What else?</li>
+
+</ol></li>
+
+</ol></li>
+
+</ol>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline15">
+<h2 id="orgheadline15">See you on 17th&#x2026;</h2>
+<p>
+rahul.naskar@gmail.com
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="http://cdn.jsdelivr.net/reveal.js/2.5.0/lib/js/head.min.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/2.5.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: true,
+slideNumber: true,
+rollingLinks: false,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+margin: 0.20,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'convex', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+});
+</script>
+</body>
+</html>

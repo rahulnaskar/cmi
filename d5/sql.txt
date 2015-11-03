@@ -1,0 +1,25 @@
+1. Create Artists
+insert into artists (artist) values('Jagjit')
+insert into artists (artist) values('Jagjit')
+2. Create Songs
+insert into songs (song)  values('Jhuki Jhuki Si Nazar')
+3. Map Songs
+insert into song_artists(artist_id, song_id) values(6, 3)
+1. Select all songs
+select * from songs
+2. Select all artists
+select * from artists
+3. Count of songs
+select count(*) from songs
+3. Select artists having a specific name
+select * from artists where artist='Kishore Kumar'
+4. Select artists where name starts with something
+select * from artists where artist like 'Lata%'
+5. Select artists where name contains something
+select * from artists where artist like '%Kumar%'
+6. Select Songs Mapped with Artists
+select artist, song from artists a, songs b, song_artists c where a.artist_id=c.artist_id and b.song_id=c.song_id
+7. Count of songs
+select artist, count(*) as "No. of Songs" from song_artists, artists where song_artists.artist_id = artists.artist_id group by artists.artist_id
+8. Delete an artist
+Delete from artists where artist = 'Himesh Reshamiya'

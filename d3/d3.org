@@ -1,0 +1,111 @@
+#    -*- mode: org -*-
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/2.5.0/
+#+OPTIONS: reveal_mathjax:t
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+OPTIONS: heading:nil
+#+REVEAL_MARGIN: 0.2
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: convex
+#+REVEAL_THEME: night
+#+REVEAL_HLEVEL: 1
+#+REVEAL_SLIDE_NUMBER: nil
+
+* The Cloud
+  #+ATTR_REVEAL: :frag roll-in
+  [[./images/carrental.jpg]]
+* A Brief History
+** Mainframes
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/mainframe.png]]
+** Virtual Machines
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/vm.gif]]
+** Grid Computing
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/grid.jpg]]
+** World Wide Web
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/www.gif]]
+** The Cloud
+   #+ATTR_REVEAL: :frag roll-in
+   [[./images/cloud.jpg]]
+
+* What's special about "The Cloud"
+:PROPERTIES:
+:reveal_background: #009e9e
+:END:
+** It's a metaphor of
+** The Internet
+
+* New Generation Services
+ :PROPERTIES:
+ :reveal_background_trans: slide
+ :END:
+** SaaS
+   #+ATTR_REVEAL: :frag roll-in
+   Google Docs
+   #+ATTR_REVEAL: :frag roll-in
+   Microsoft 365
+   #+ATTR_REVEAL: :frag roll-in
+   Zoho Office
+   #+ATTR_REVEAL: :frag roll-in
+   Can you think of something else???
+** IaaS
+ :PROPERTIES:
+ :reveal_background_trans: slide
+ :END:
+   #+ATTR_REVEAL: :frag roll-in
+   Windows Azure
+   #+ATTR_REVEAL: :frag roll-in
+   Google Compute Engine
+   #+ATTR_REVEAL: :frag roll-in
+   Amazon EC
+
+* Web Hosting
+** Why?
+   #+ATTR_REVEAL: :frag roll-in
+   Your face in the internet
+** How?
+   #+ATTR_REVEAL: :frag roll-in
+   Choose a Web Hosting Provider
+   #+ATTR_REVEAL: :frag roll-in
+   Choose a Domain Name (aka Whatever's left)
+   #+ATTR_REVEAL: :frag roll-in
+   Build a Website
+
+* An example
+  [[http://www.godaddy.com]]
+* If you are an explorer
+  | Topic                | Link                              |
+  |----------------------+-----------------------------------|
+  | IaaS Providers       | http://www.clouds360.com/iaas.php |
+  | SaaS Providers       | http://www.clouds360.com/saas.php |
+  | Web Hosting Provider | http://www.godaddy.com/           |
+
+
+* Summing it up
+:PROPERTIES:
+    :reveal_background: #224488
+    :reveal_background_trans: slide
+    :END:
+#+ATTR_REVEAL: :frag roll-in
+1. [ ] Review
+   1. [ ] What's the Cloud?
+      1. [ ] What is special about the cloud
+   2. [ ] History of the Cloud
+      1. [ ] When was the term Cloud Coined. Who did it?
+      2. [ ] What according to you triggered the concept of Cloud Computing?
+   3. [ ] New Generation Services
+      1. [ ] What services, according to you, will come up as cloud services in a year from now, 5 years from now
+      2. [ ] Another very new service in Cloud Computing is very popular these days, name it
+   4. [ ] Web Hosting
+      1. [ ] What are the steps needed to create a website of your own
+      2. [ ] What will you like to be in your personal website
+
+* See you on 27th...
+   rahul.naskar@gmail.com
