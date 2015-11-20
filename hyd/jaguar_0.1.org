@@ -163,7 +163,6 @@ s
    3. POC
    4. Development
    5. Refinement
-**
 * Discussions
 
 * Thank You
