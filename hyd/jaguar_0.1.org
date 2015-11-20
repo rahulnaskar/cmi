@@ -94,6 +94,8 @@
     The software system, MIFA was ported from existing DOS based CUI systems into a modern GUI based system in a Linux/QT platform. MIFA carries out health checking of missile subsystems through an Ultra Mobile PC. The tablet PC is connected through a communication (RS 232) interface with the On Board Computer of the missile and send commands accepted by the OBC, gathers feedback from the OBC based on the commands sent and present the feedback in a dashboard to empower the user with decision making capabilities.
 
 * Our understanding of the Project
+   #+ATTR_REVEAL: :frag (roll-in)
+   Launch Control Simulator/Aircraft Simulator for Air-Launched Weapon System
 * Major Sub-Systems
 ** Flight Planner
    #+ATTR_REVEAL: :frag (roll-in roll-in roll-in roll-in roll-in roll-in roll-in roll-in)
@@ -109,8 +111,9 @@
    5. Waypoint Selection
    6. Target Selection
 ** Sub-System 2 - Trajectory Management
-   #+ATTR_REVEAL: :frag (roll-in roll-in roll-in roll-in roll-in roll-in roll-in roll-in)
+
 *** Generation - Probable Factors
+    #+ATTR_REVEAL: :frag (roll-in roll-in roll-in roll-in roll-in roll-in roll-in roll-in)
     1. Waypoints
     2. Velocity & Acceleration
     3. Aircraft Mass & Weight
@@ -120,6 +123,7 @@
     7. Aircraft Capability - Pitch, Roll
     8. Time
 *** Validation - Limits & Constraints
+    #+ATTR_REVEAL: :frag (roll-in roll-in roll-in roll-in roll-in roll-in roll-in roll-in)
     1. Velocity
     2. Altitude
     3. Roll
