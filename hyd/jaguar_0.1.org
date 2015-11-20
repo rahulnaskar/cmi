@@ -2,6 +2,7 @@
 
 #+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
 #+OPTIONS: reveal_mathjax:t
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/2.5.0/
 #+OPTIONS: reveal_width:1200 reveal_height:800
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
