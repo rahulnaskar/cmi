@@ -14,7 +14,7 @@
 #+REVEAL_THEME: night
 #+REVEAL_HLEVEL: 1
 #+REVEAL_SLIDE_NUMBER: nil
-
+s
 #+REVEAL_EXTRA_CSS: ./presentation.css
 
 * Nevaeh Technology Pvt. Ltd.
@@ -93,7 +93,7 @@
     #+ATTR_REVEAL: :frag roll-in
     The software system, MIFA was ported from existing DOS based CUI systems into a modern GUI based system in a Linux/QT platform. MIFA carries out health checking of missile subsystems through an Ultra Mobile PC. The tablet PC is connected through a communication (RS 232) interface with the On Board Computer of the missile and send commands accepted by the OBC, gathers feedback from the OBC based on the commands sent and present the feedback in a dashboard to empower the user with decision making capabilities.
 
-* Our understanding of the Project
+* Our understanding of the Projeyct
 
 ** Launch Control Simulator/Aircraft Simulator for Air-Launched Weapon System
 * Major Sub-Systems
@@ -142,6 +142,28 @@
    Level of Detail - Zoom-in, Zoom-out
    #+ATTR_REVEAL: :frag (roll-in)
    Overlays
+* Technology Stack
+** Development Platform - Visual C++/QT
+** Rendering Engine - Mapnik
+** Scripting & Management - Python
+** Map Data - OpenStreetMap
+* Approach
+** Roadmap
+   [[./roadmap.png]]
+** Onsite
+   1. Understanding & Analysis of Existing System
+   2. Requirements and Current Practices
+   3. Product Conceptualization
+   4. Validation
+   5. Field Trial
+   6. Acceptance & Delivery
+** Offsite
+   1. Technology R & D
+   2. Product Architecture
+   3. POC
+   4. Development
+   5. Refinement
+**
 * Discussions
 
 * Thank You
