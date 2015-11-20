@@ -1,0 +1,142 @@
+#    -*- mode: org -*-
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:t reveal_control:t
+#+OPTIONS: reveal_mathjax:t
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+#+OPTIONS: heading:nil
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: convex
+#+REVEAL_THEME: night
+#+REVEAL_HLEVEL: 1
+#+REVEAL_SLIDE_NUMBER: nil
+
+#+REVEAL_EXTRA_CSS: ./presentation.css
+
+* Nevaeh Technology Pvt. Ltd.
+  #+ATTR_REVEAL: :frag (highlight-blue)
+  DH 6/31, 02-362, Action Area - 1 D, \\
+  New Town, Rajarhat, Kolkata 700156, India. \\
+  Ph: +91 033 4014 5860, Fax: +91 033 4014 5821. \\
+  #+ATTR_REVEAL: :frag t
+  Email: info@nevaehtech.com \\
+
+* Defense Projects & Scientific Applications @ nevaeh
+** Air-Vehicle Simulation =-= Six DOF
+   #+ATTR_REVEAL: :frag highlight-blue
+   RCI, Hyderabad
+   #+ATTR_REVEAL: :frag (roll-in)
+   DRDO's Air-Vehicle simulation software is based on SixDOF (six degree of freedom) theory and was originally written in Turbo C++. It used to run under DOS platform and lacked real-time capabilities. The purpose of this project was to test all the functional modules in this project and document all the routines that implemented the entire simulation. The total document was designed as a booklet and was divided into 6 (six) main sections and an Appendix. The purpose of the document was to give a complete description of the software designed.
+
+** Air-Vehicle simulation in RTLinux
+   #+ATTR_REVEAL: :frag highlight-blue
+   RCI, Hyderabad
+   #+ATTR_REVEAL: :frag roll-in
+   The purpose of this project was to port the DRDO's air-vehicle simulation software in a real-time operating system. The platform chosen was RT-Linux pro – 1.2 from fsmlabs. The total project was split into two separate modules
+
+*** Real-time RTLinux Kernel Module
+    #+ATTR_REVEAL: :frag (roll-in)
+    The module implemented SixDOF simulation (written in C) and the other was a user space KDE-GUI application (C++/QT) that received the simulation results from the kernel-space through a set of real-time FIFOs. Within the simulation loop, the delta-commands generated from the autopilot routine were looped back through a pair of ADC/DAC for inspection by any externally connected display device.
+
+*** _Advantech PCL-726, PCL-818hg, PCI-1756 - RTLinux_
+
+    #+ATTR_REVEAL: :frag roll-in
+    The driver package for DRDO's real-time air-vehicle simulation comprised of some low level routines to work with Advantech's PCL-818hg (ADC), PCL-726 (DAC) and PCI-1756 (DIO) cards for the RTLinux platform as Advantech does not supply the RTLinux drivers for these cards.
+
+** _Real-time Graphical Scan Stabilization_
+   #+ATTR_REVEAL: :frag highlight-blue
+   RCI, Hyderabad
+   #+ATTR_REVEAL: :frag (roll-in)
+   The system has three inter-connected sub-systems namely: the antenna, controller and the console. The antenna is mounted on a platform that can move on two perpendicular axes. A motor is fitted with sensors, which controls the movement of the platform on which the antenna is mounted. The controller sub-system is a digital controller based on i960 microprocessor. The controller receives commands on the 1553 BUS, executes the servo-controller and sends back the positional data on the same 1553 BUS at an interval of every 2 milli-seconds. The console is a PC connected to the controller over the 1553 BUS and through a RS 232 link.
+
+** Real-Time Missile Simulation
+   #+ATTR_REVEAL: :frag highlight-blue
+   ITR, Balasore
+   #+ATTR_REVEAL: :frag roll-in
+   The team, developed this Simulation Software in phased manner. The phases of the development have been elicited below:
+*** Phase 1
+   #+ATTR_REVEAL: :frag roll-in
+   1. Model creation of objects with zoom, tilt & pan facilities
+   2. Digital map designing and loading
+   3. Real time rendering/image generation
+   4. Geometric representation of terrain, vehicles, mountain etc.
+
+*** Phase 2
+   #+ATTR_REVEAL: :frag roll-in
+   1. Volumetric Smoke
+   2. Fire/Flames
+   3. Muzzle Flash
+   4. Missile Trail
+   5. Rotating Blade
+   6. Tracer
+   7. Explosion
+   8. Debris
+   9. Water Splash
+
+** Missile Inspection & Feedback Acquisition
+   #+ATTR_REVEAL: :frag highlight-blue
+   RCI, Hyderabad
+   #+ATTR_REVEAL: :frag (roll-in)
+   The objective of the project was to get rid of complex and large H/W setup for health check-up of missiles. Nevaeh was assigned to identify and custom configure an ultra mobile computer which should be powerful enough to carry on such tasks in tablet like ultra-mobile rugged PCs and port existing S/W systems into a GUI based dashboard for carrying out health check-ups of missiles.
+   #+ATTR_REVEAL: :frag roll-in
+   1. Supply of a Ruggedized Ultra-mobile Computer
+   2. Developing a Health Check-up System for Missiles
+*** Ruggedized Ultra-mobile Computer
+    #+ATTR_REVEAL: :frag roll-in
+    Nevaeh identified a ruggedized ultra-mobile PC having physical dimension of 7.28” x 9.05” with Vehicle Mount Cradles, Desktop Cradles and closely worked with the OEM to custom-configure the H/W and S/W to meet requirements of the project, including porting of Linux and device drivers like touch screen for Linux.
+
+*** MIFA =-= The S/W System
+    #+ATTR_REVEAL: :frag roll-in
+    The software system, MIFA was ported from existing DOS based CUI systems into a modern GUI based system in a Linux/QT platform. MIFA carries out health checking of missile subsystems through an Ultra Mobile PC. The tablet PC is connected through a communication (RS 232) interface with the On Board Computer of the missile and send commands accepted by the OBC, gathers feedback from the OBC based on the commands sent and present the feedback in a dashboard to empower the user with decision making capabilities.
+
+* Our understanding of the Project
+* Major Sub-Systems
+** Flight Planner
+   #+ATTR_REVEAL: :frag (roll-in roll-in roll-in roll-in roll-in roll-in roll-in roll-in)
+   1. Trajectory Management
+   2. Navigation
+   3. Launch Sequence Management
+** Sub-System 1 - Flight Planner
+   #+ATTR_REVEAL: :frag (roll-in roll-in roll-in roll-in roll-in roll-in roll-in roll-in)
+   1. Aircraft Selection
+   2. Weapons Selection
+   3. Source Selection
+   4. Destination Selection
+   5. Waypoint Selection
+   6. Target Selection
+** Sub-System 2 - Trajectory Management
+   #+ATTR_REVEAL: :frag (roll-in roll-in roll-in roll-in roll-in roll-in roll-in roll-in)
+*** Generation - Probable Factors
+    1. Waypoints
+    2. Velocity & Acceleration
+    3. Aircraft Mass & Weight
+    4. Altitude
+    5. Takeoff Capability + Inertial Heading
+    6. Drag
+    7. Aircraft Capability - Pitch, Roll
+    8. Time
+*** Validation - Limits & Constraints
+    1. Velocity
+    2. Altitude
+    3. Roll
+    4. Pitch
+* Necessary Theoretical Frameworks & Implementation
+** Trajectory
+** Aircraft Dynamics/Avionics
+** Navigation
+** Control Guidance
+** Graphic Display
+   #+ATTR_REVEAL: :frag (roll-in)
+   Terrain Rendering
+   #+ATTR_REVEAL: :frag (roll-in)
+   Multiple Viewport
+   #+ATTR_REVEAL: :frag (roll-in)
+   Level of Detail - Zoom-in, Zoom-out
+   #+ATTR_REVEAL: :frag (roll-in)
+   Overlays
+* Discussions
+
+* Thank You
