@@ -149,7 +149,7 @@ s
 ** Map Data - OpenStreetMap
 * Approach
 ** Roadmap
-   [[./roadmap.png]]
+   [[roadmap.png]]
 ** Onsite
    1. Understanding & Analysis of Existing System
    2. Requirements and Current Practices
