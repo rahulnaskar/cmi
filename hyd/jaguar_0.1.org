@@ -17,7 +17,7 @@
 s
 #+REVEAL_EXTRA_CSS: ./presentation.css
 
-* Nevaeh Technology Pvt. Ltd.
+* Nevaeh Technology Pvt Ltd.
   #+ATTR_REVEAL: :frag (highlight-blue)
   DH 6/31, 02-362, Action Area - 1 D, \\
   New Town, Rajarhat, Kolkata 700156, India. \\
